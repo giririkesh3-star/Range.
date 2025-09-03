@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rikesh Giri</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: #121212;
+      color: #f5f5f5;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: #1e1e1e;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    header h1 {
+      font-size: 40px;
+      margin: 0;
+      color: #ff9800;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+      color: #aaa;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1e1e1e;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      height: 300px; /* makes them tall so page scrolls */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card-header {
+      background: #2a2a2a;
+      padding: 20px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      color: #ff9800;
+    }
+
+    .card-body {
+      padding: 20px;
+      font-size: 18px;
+      color: #ddd;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rikesh Giri</h1>
+    <p>Birthdate: 2007/07/06</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <div class="card-header">💪 About Me</div>
+      <div class="card-body">mero name rikesh giri ho malai cats man parcha </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">📈 Interests</div>
+      <div class="card-body"> malai tha xaina na aaile ko lagi </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">💭 Goals</div>
+      <div class="card-body">To be a kind person</div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">🎨 Hobbies</div>
+      <div class="card-body">sutne ho mero kam </div>
+    </div>
+  </div>
+
+</body>
+</html>
